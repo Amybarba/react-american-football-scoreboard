@@ -16,30 +16,30 @@ In this project, you build an app that diplays a scoreboard for an american foot
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd american-football-scoreboard`
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your team lead as collaborator on Github.
+- [X] Clone your OWN version of the repository in your terminal
+- [X] CD into the project base directory `cd american-football-scoreboard`
+- [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [X] Add your team lead as a reviewer on the pull-request
+- [X] Your team lead will count the project as complete by merging the branch back into master.
+- [X] Do your magic!
 
-## Minimum Viable Product
+X ## Minimum Viable Product
 
 1. Hold each team's current score in a state value
 1. Render each team's current score that is in state to the DOM.
 1. Be able to click the different buttons to increment the appropriate team's score by the correct amount
 
-### STEP 1 & 2 - Adding Team Scores to the Component's State
+X ### STEP 1 & 2 - Adding Team Scores to the Component's State
 
 - Import the `useState` hook
 - Set up the state values for the Lions team score using the state hook
@@ -50,13 +50,13 @@ const [value, setValue] = useState(); // Give these better names, and decide whe
 
 - Set up the state value for the Tigers team score using a second state hook call
 
-### STEP 3 - Render the Scores to the DOM
+X ### STEP 3 - Render the Scores to the DOM
 
 - The scores in the JSX are currently hardcoded to 32 points each. Remove the hardcoded values
 - Render the state values from what we just set up in steps 1 and 2
 - Play around with different initial values to test if they are rendering on the DOM correctly
 
-### STEP 4 - Add Click Functionality to Increment the Scores
+X ### STEP 4 - Add Click Functionality to Increment the Scores
 
 - Add the `onClick` handler to each function
 - Determine how much you will need to increment the score for each button
